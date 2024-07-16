@@ -10,37 +10,81 @@
     }
 </style>
 
+<!-- Link to flag icons library -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"
+/>
+
+
 <!-- Feierabend Checklist -->
+<i class="fi fi-gb"></i>
 <h2>Feierabend Checklist</h2>
 <p>Check the following before leaving:</p>
 <ul>
     <li class="checklist-item">
         <input type="checkbox" id="tank-water" />
-        <label for="tank-water">Is there water in the tank? If yes, drain it.</label>
+        <label for="tank-water">Is there water in the tank? If yes, drain it</label>
     </li>
     <li class="checklist-item">
         <input type="checkbox" id="tank-closed" />
-        <label for="tank-closed">Close the water tap and valve.</label>
+        <label for="tank-closed">Close the water tap and valve</label>
     </li>
     <li class="checklist-item">
         <input type="checkbox" id="tools-materials" />
-        <label for="tools-materials">Return all tools and materials to the tools trolley.</label>
+        <label for="tools-materials">Return all tools and materials to the tools trolley</label>
     </li>
     <li class="checklist-item">
         <input type="checkbox" id="windows-closed" />
-        <label for="windows-closed">Close the windows.</label>    
+        <label for="windows-closed">Close the windows</label>    
     </li>
     <li class="checklist-item">
         <input type="checkbox" id="computer-off" />
-        <label for="computer-off">Turn off the computer.</label>
+        <label for="computer-off">Turn off the computer</label>
     </li>
     <li class="checklist-item">
         <input type="checkbox" id="lights-off" />
-        <label for="lights-off">Turn off the lights.</label>
+        <label for="lights-off">Turn off the lights</label>
     </li>
     <li class="checklist-item">
         <input type="checkbox" id="hexapod-off" />
-        <label for="hexapod-off">Go to the basement and turn off the Hexapod.</label>
+        <label for="hexapod-off">Go to the basement and turn off the Hexapod</label>
     </li>
 </ul>
 <p>Remember, it's important to complete these tasks before leaving for the day. Have a great Feierabend!</p>
+
+<!-- Feierabend Checklist -->
+<i class="fi fi-de"></i>
+<h2>Feierabend Checklist</h2>
+<p>Überprüfe Folgendes, bevor du nach Hause gehst:</p>
+<ul>
+    <li class="checklist-item">
+        <input type="checkbox" id="tank-water" />
+        <label for="tank-water">Ist Wasser im Tank? Wenn ja, entleere ihn</label>
+    </li>
+    <li class="checklist-item">
+        <input type="checkbox" id="tank-closed" />
+        <label for="tank-closed">Schließe den Wasserhahn und das Ventil</label>
+    </li>
+    <li class="checklist-item">
+        <input type="checkbox" id="tools-materials" />
+        <label for="tools-materials">Stelle alle Werkzeuge und Materialien in den Werkzeugwagen zurück</label>
+    </li>
+    <li class="checklist-item">
+        <input type="checkbox" id="windows-closed" />
+        <label for="windows-closed">Schließe die Fenster</label>    
+    </li>
+    <li class="checklist-item">
+        <input type="checkbox" id="computer-off" />
+        <label for="computer-off">Schalte den Computer aus</label>
+    </li>
+    <li class="checklist-item">
+        <input type="checkbox" id="lights-off" />
+        <label for="lights-off">Schalte das Licht aus</label>
+    </li>
+    <li class="checklist-item">
+        <input type="checkbox" id="hexapod-off" />
+        <label for="hexapod-off">Gehe in den Keller und schalte den Hexapod aus</label>
+    </li>
+</ul>
+<p>Denke daran, diese Aufgaben vor deinem Feierabend abzuschließen. Schönen Feierabend!</p>
