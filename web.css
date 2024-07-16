@@ -19,12 +19,12 @@
         <label for="tank-water">Is there water in the tank? If yes, drain it.</label>
     </li>
     <li class="checklist-item">
-        <input type="checkbox" id="tools-materials" />
-        <label for="tools-materials">Return all tools and materials to the tools trolley.</label>
-    </li>
-    <li class="checklist-item">
         <input type="checkbox" id="tank-closed" />
         <label for="tank-closed">Close the water tap and valve.</label>
+    </li>
+    <li class="checklist-item">
+        <input type="checkbox" id="tools-materials" />
+        <label for="tools-materials">Return all tools and materials to the tools trolley.</label>
     </li>
     <li class="checklist-item">
         <input type="checkbox" id="windows-closed" />
